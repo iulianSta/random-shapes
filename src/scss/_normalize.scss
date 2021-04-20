@@ -1,0 +1,8 @@
+// All elements normilize
+* {
+  @include normalize;
+}
+// Body style
+body {
+  margin: 0;
+}

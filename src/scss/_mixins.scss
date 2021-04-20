@@ -1,0 +1,11 @@
+// Normalize mixin
+@mixin normalize {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// Size mixin
+@mixin size {
+  width: 100%;
+  height: 100vh;
+}
