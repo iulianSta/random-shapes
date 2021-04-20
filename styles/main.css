@@ -6115,7 +6115,7 @@ body {
 .shape .div1 {
   width: 80px;
   height: 80px;
-  background-color: #669999;
+  background-color: #ffd700, #fff8dc, #db7093, #c2b7fe, #95a9ff;
   position: relative;
   margin: auto;
   animation: square-to-circle 2.5s 0.5s infinite cubic-bezier(1, 0.015, 0.295, 1.225) alternate-reverse;
@@ -6123,7 +6123,7 @@ body {
 .shape .div2 {
   width: 80px;
   height: 80px;
-  background-color: #669999;
+  background-color: #ffd700, #fff8dc, #db7093, #c2b7fe, #95a9ff;
   position: relative;
   margin: auto;
   animation: square-to-circle2 2.5s 0.42s infinite cubic-bezier(1, 0.015, 0.295, 1.225) alternate-reverse;
@@ -6152,7 +6152,7 @@ footer {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 90vh;
+  top: 55vh;
 }
 footer h5 {
   font-family: "Karantina", cursive, sans-serif;
