@@ -24,4 +24,18 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40vh;
+}
+.title h1 {
+  font-family: "Zen Dots", cursive, sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  letter-spacing: 0.3em;
+}
+
 /*# sourceMappingURL=main.css.map */
