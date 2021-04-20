@@ -1,6 +1,6 @@
 // Import section
 // Import Font Awesome
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import "./fontawesome-free-5.15.2-web/scss/fontawesome.scss";
 // Import Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap");
@@ -22,3 +22,5 @@
 @import "./footer";
 // Import functions
 @import "./functions";
+// Import animations
+@import "./animations";
