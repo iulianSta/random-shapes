@@ -1,6 +1,6 @@
 // Loop
 @for $i from 1 through $shape-count {
-  $shape-size: random(10);
+  $shape-size: random(50);
   $rotation: random(360);
   $speed: 40 + random(10);
   $color-key: random(length($colors));
@@ -8,24 +8,4 @@
   $shape-key: random(length($shapes));
   $shape-type: nth($shapes, $shape-key);
   $text: random(10);
-
-  @keyframes shape-#{$i} {
-    0% {
-      transform: translate3d(0, 0, 0) rotate(#{$rotation + 0}deg);
-    }
-    100% {
-      transform: translate3d(0, 0, 0) rotate(#{$rotation + 360}deg);
-    }
-  }
-
-  .shape-container--#{$i} {
-    animation: shape-#{$i} #{$speed}s linear infinite;
-
-    .random-shape:after {
-      margin: #{$shape-size}rem;
-      color: $shape-color;
-      font-size: #{$shape-size * 0.2}rem;
-      content: $shape-type;
-    }
-  }
 }

@@ -2,9 +2,45 @@
 .shape {
   margin: 0 auto;
   position: relative;
+  div {
+    animation: rotate-all 2s 0 infinite linear alternate;
+  }
+
+  .div1 {
+    width: 80px;
+    height: 80px;
+    background-color: #669999;
+    position: relative;
+    margin: auto;
+    animation: square-to-circle 2.5s 0.5s infinite
+      cubic-bezier(1, 0.015, 0.295, 1.225) alternate-reverse;
+  }
+
+  .div2 {
+    width: 80px;
+    height: 80px;
+    background-color: #669999;
+    position: relative;
+    margin: auto;
+    animation: square-to-circle2 2.5s 0.42s infinite
+      cubic-bezier(1, 0.015, 0.295, 1.225) alternate-reverse;
+  }
 }
-// Random shape after style
-.random-shape:after {
-  font-family: FontAwesome;
-  content: "\f005";
+// Div's style
+#one {
+  top: 15vh;
+}
+
+#two {
+  top: 25vh;
+  right: 30vw;
+}
+
+#three {
+  top: 30vh;
+}
+
+#four {
+  top: 10vh;
+  left: 30vw;
 }

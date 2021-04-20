@@ -1,1 +1,56 @@
 // Shape animation
+@keyframes square-to-circle {
+  0% {
+    border-radius: 0 0 0 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(45deg);
+  }
+  25% {
+    border-radius: 50% 0 0 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(135deg);
+  }
+  50% {
+    border-radius: 50% 50% 0 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(180deg);
+  }
+  75% {
+    border-radius: 50% 50% 50% 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(315deg);
+  }
+  100% {
+    border-radius: 50%;
+    background: linear-gradient(#{$colors});
+    transform: rotate(404deg);
+  }
+}
+
+@keyframes square-to-circle2 {
+  0% {
+    border-radius: 0 0 0 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(45deg);
+  }
+  25% {
+    border-radius: 0 0 50% 0;
+    background: linear-gradient(#{$colors});
+    transform: rotate(135deg);
+  }
+  50% {
+    border-radius: 0 0 50% 50%;
+    background: linear-gradient(#{$colors});
+    transform: rotate(180deg);
+  }
+  75% {
+    border-radius: 50% 0 50% 50%;
+    background: linear-gradient(#{$colors});
+    transform: rotate(315deg);
+  }
+  100% {
+    border-radius: 50%;
+    background: linear-gradient(#{$colors});
+    transform: rotate(404deg);
+  }
+}
