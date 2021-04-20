@@ -9,7 +9,7 @@
   .div1 {
     width: 80px;
     height: 80px;
-    background-color: #669999;
+    background-color: $colors;
     position: relative;
     margin: auto;
     animation: square-to-circle 2.5s 0.5s infinite
@@ -19,7 +19,7 @@
   .div2 {
     width: 80px;
     height: 80px;
-    background-color: #669999;
+    background-color: $colors;
     position: relative;
     margin: auto;
     animation: square-to-circle2 2.5s 0.42s infinite
