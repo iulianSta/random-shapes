@@ -1,0 +1,7 @@
+// Container style
+.container {
+  @include size;
+  display: block;
+  overflow: hidden;
+  background-image: linear-gradient(260deg, $first-col 0%, $sec-col 100%);
+}
