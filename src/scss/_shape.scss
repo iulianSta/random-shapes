@@ -1,0 +1,10 @@
+// Shape conteiner style
+.shape {
+  margin: 0 auto;
+  position: relative;
+}
+// Random shape after style
+.random-shape:after {
+  font-family: FontAwesome;
+  content: "\f005";
+}
