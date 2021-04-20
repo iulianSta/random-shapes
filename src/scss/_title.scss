@@ -8,5 +8,8 @@
     font-size: 4rem;
     color: $white;
     letter-spacing: 0.3em;
+    text-shadow: 0 0 15px rgba($color: $first-col, $alpha: 1),
+      -5px -5px 0 rgba($color: $sec-col, $alpha: 0.8),
+      5px 5px 0 rgba($color: $white, $alpha: 0.6);
   }
 }
