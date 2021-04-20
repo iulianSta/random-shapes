@@ -1,9 +1,22 @@
+// Import section
+// Import Font Awesome
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+// Import Google fonts
 @import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap");
+// Import variables
 @import "./var/variables";
+// Import mixins
 @import "./mixins";
+// Import normalize
 @import "./normalize";
+// Import container
 @import "./container";
+// Import inner container
 @import "./inner-container";
+// Import title container
 @import "title";
+// Import shape container
+@import "./shape";
+// Import footer container
+@import "./footer";
