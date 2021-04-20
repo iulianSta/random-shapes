@@ -1,0 +1,12 @@
+// Title style
+.title {
+  @include display-flex;
+  position: relative;
+  top: 40vh;
+  h1 {
+    font-family: $zen-font;
+    font-size: 4rem;
+    color: $white;
+    letter-spacing: 0.3em;
+  }
+}
